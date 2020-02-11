@@ -37,7 +37,7 @@ with open('YOUR .CSV PATH HERE...', 'a', newline='\n') as csvFile:
             cv2.waitKey(0)
             cv2.destroyAllWindows()
             
-            cv2.imwrite(f'YOUR DIRECTORY PATH FOR NEW IMAGES HERE...\{files}Image.jpg', imCrop)
+            cv2.imwrite(f'YOUR DIRECTORY PATH FOR NEW IMAGES HERE...\{files[:-4]}Image.jpg', imCrop)
             
             # Data for csv file
             dados = [files, originalSize[0], originalSize[1], 'INTER_AREA', resizedSize[0], resizedSize[1], r[0], r[1], r[2], r[3]]
