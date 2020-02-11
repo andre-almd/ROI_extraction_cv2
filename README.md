@@ -17,7 +17,7 @@ Create a csv file with the following header: file, originalHeight, originalWidth
 6) width, height will be the dimensions of the ROI, starting from x1 and y1 on resized image.
 
 ## Changing paths on code...
-In line 6, change 'YOUR CODE DIRECTORY PATH HERE ...' to the path to the folder where the ROI.py file is located;
+In line 6, change 'YOUR CODE DIRECTORY PATH HERE ...' to the path to the folder where the images are located;
 
 On line 11, in 'YOUR .CSV PATH HERE ...', put the path of the .csv file;
 
