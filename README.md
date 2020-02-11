@@ -3,4 +3,4 @@ Code for manually extract ROI on images, save data on a .csv file, save image cr
 
 ## How to use the code?
 
-XXXXXxxxxxxxx
+In the same directory as the ROI.py file, create a folder called ROI.
