@@ -19,8 +19,8 @@ Create a csv file with the following header: file, originalHeight, originalWidth
 ## Changing the code...
 In line 6, change 'YOUR CODE DIRECTORY PATH HERE ...' to the path to the folder where the images are located;
 
-On line 11, in 'YOUR .CSV PATH HERE ...', put the path of the .csv file;
+In line 11, in 'YOUR .CSV PATH HERE ...', put the path of the .csv file;
 
-On line 40, change the text 'YOUR DIRECTORY PATH FOR NEW IMAGES HERE ...' to the path of the folder where you want to save the new cropped images. Do not change '\ {files} Image.jpg' so that the image has the same caption as the original image;
+In line 40, change the text 'YOUR DIRECTORY PATH FOR NEW IMAGES HERE ...' to the path of the folder where you want to save the new cropped images. Do not change '\ {files} Image.jpg' so that the image has the same caption as the original image;
 
 In line 33, the code for drawing the rectangle in the image is commented out. Uncomment to use it.
