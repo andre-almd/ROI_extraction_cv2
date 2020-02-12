@@ -21,6 +21,8 @@ In line 6, change 'YOUR CODE DIRECTORY PATH HERE ...' to the path to the folder 
 
 In line 11, in 'YOUR .CSV PATH HERE ...', put the path of the .csv file;
 
-In line 40, change the text 'YOUR DIRECTORY PATH FOR NEW IMAGES HERE ...' to the path of the folder where you want to save the new cropped images. Do not change '\ {files} Image.jpg' so that the image has the same caption as the original image;
+In line 22, I divided the dimensions of the original image by 4. Change this as needed;
 
-In line 33, the code for drawing the rectangle in the image is commented out. Uncomment to use it.
+In line 33, the code for drawing the rectangle in the image is commented out. Uncomment to use it;
+
+In line 40, change the text 'YOUR DIRECTORY PATH FOR NEW IMAGES HERE ...' to the path of the folder where you want to save the new cropped images. Do not change '\ {files} Image.jpg' so that the image has the same caption as the original image.
